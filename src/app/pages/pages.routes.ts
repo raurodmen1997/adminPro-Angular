@@ -14,7 +14,7 @@ const routes: Routes = [
       children: [
         {path: 'dashboard', component: DashboardComponent},
         {path: 'progress', component: ProgressComponent},
-        {path: 'grafocas1', component: Graficas1Component},
+        {path: 'graficas1', component: Graficas1Component},
         //Si no se introduce ninguna ruta, redirecciona a la de dashboard
         {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
       ]
